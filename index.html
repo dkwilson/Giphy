@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     
-</body>
+
+    <title>The GIF King</title>
+  </head>
+
+  <body>
+    <div class="jumbotron jumbotron-fluid bg-info">
+      <div class="container mb-4 mx-auto">
+        <div class="row mr-20">
+          <h1 class="text-center display-1">The GIF King</h1>
+
+          <div class="row">
+            <div class="text-center">
+              <img src="./assets/images/minion.jpg" class="rounded" alt="..." />
+              <h4 class="text-dark text-center pt-3">
+                Pick a category (or add one), then watch us work our magic!
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-4 mt-4">
+      <div class="row">
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <button
+              class="btn btn-outline-primary"
+              type="button"
+              id="addButton"
+            >
+              Add Category
+            </button>
+          </div>
+          <input
+            id="searchText"
+            type="text"
+            class="form-control"
+            placeholder="Enter the name of the GIF catgegory you want to add."
+            aria-label="Example text with button addon"
+            aria-describedby="button-addon1"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div
+        class="row bg-warning mb-4 mx-auto"
+        style="width: 100%; height: 100%;"
+        id="buttons">
+      <div class="btnBoard">
+            <p>Button Area</p>
+      </div>
+        
+      </div>
+    </div>
+
+    <div class="container mx-auto">
+      <div class="row bg-secondary mx-auto px-auto"
+        style="width: 90%; height: 100%;"
+        id="imageBoard">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <footer class="footer mt-auto py-3">
+          <div class="container">
+            <span class="text-muted">DKeith Wilson &copy 2019</span>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="/assets/javascript/main.js"></script>
+  </body>
 </html>
