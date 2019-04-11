@@ -71,8 +71,9 @@ $(document).ready(function () {
           topicImage.attr("data-state", "still");
           topicImage.addClass("topic-image");
 
-          topicDiv.append(ptag);
+          
           topicDiv.append(topicImage);
+          topicDiv.append(ptag);
 
           $("#imageBoard").append(topicDiv);
         }
